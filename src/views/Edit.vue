@@ -34,7 +34,7 @@ export default {
     if(this.$route.params.product) {
       this.product = this.$route.params.product;
     } else {
-      this.product = { name:'', price: 0 };
+      this.product = {  name:'',  price: 0 };
     }
   },
   methods: {

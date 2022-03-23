@@ -8,7 +8,7 @@
     </v-row>
     <v-row>
       <v-col>
-        <v-btn @click="addProduct">Add Product</v-btn>
+        <v-btn color="green" @click="addProduct" >Add Product</v-btn>
       </v-col>
     </v-row>
   </v-container>
@@ -17,7 +17,6 @@
 
 <script>
 import Product from '@/components/Product';
-
 export default {
   components: {
     Product
